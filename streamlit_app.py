@@ -89,7 +89,7 @@ else:
             synthetic_results = synthetic_data_generator.generate(
             subject="account_identity",
             extra=extra,
-            runs=1,
+            runs=3,
             )
 
             if synthetic_results:
